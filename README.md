@@ -11,5 +11,6 @@ I then created my scraping python program (step by step):
     c. If successful, i use beautifulsoup to find all html specified under 'h1' or header 1 described html. i then write these headlines to the out file
     d. after getting all h1 headers, i then retrieve all text with the 'p' or paragraph html and write it to the out file
     e. after getting texts from a website, it then uses time.sleep() to delay the scraping for 1 second. This is     precautionary in case websited pick up bot activity.
+  The program outputs after each website has been scraped.
 
 
