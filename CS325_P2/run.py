@@ -1,12 +1,13 @@
 '''
 this file is mostly just for running the program. this is where URLs are put in to be scraped
+follows SRP due to being able to alter the URLs and it not interfering with the class Scrapper or the scrap.py functions
+
 '''
 
 from module_2.scrap import main
 
-
 if __name__ == "__main__":
-    # Define the list of URLs to scrape
+    # Define list of URLs to scrape
     urls = [
     "https://www.foxnews.com/entertainment/kelly-clarksons-weight-loss-motivated-being-pre-diabetic",
     "https://theathletic.com/5255847/2024/02/07/chiefs-season-turning-point-super-bowl/",

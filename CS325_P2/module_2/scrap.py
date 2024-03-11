@@ -2,6 +2,8 @@
 scrap.py focuses on getting the right paths for the data to be written to:
 If Data folder is not created, it will create it and then write data to its respective place
 scrapper.py is imported here to make use of it's scraping, while os and sys deals with the system
+This module also follows SRP due to dealing with the location of Urls, changing this module would not interfere with
+class Scrapper or vice versa
 '''
 import os       
 import sys
