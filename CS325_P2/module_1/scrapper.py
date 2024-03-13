@@ -17,14 +17,14 @@ class Scrapper:
     @staticmethod
     def scrape(urls): 
         scrapeData = []
-        for i, url in enumerate(urls, start = 1):
-            response = requests.get(url)
-            if response.status_code == 200:
+        for i, url in enumerate(urls, start = 1): # through each url
+            response = requests.get(url) # get request
+            if response.status_code == 200: # successful request
                 soup = BeautifulSoup(response.text, 'html.parser')
-                headline_text = [headline.text for headline in soup.find_all('h1')]
-                paragraph_text = [paragraph.text for paragraph in soup.find_all('p')]
-                scrapeData.append({'headlines': headline_text, 'paragraphs': paragraph_text})
+                headline_text = [headline.text for headline in soup.find_all('h1')] # get headlines
+                paragraph_text = [paragraph.text for paragraph in soup.find_all('p')] # get paragraphs
+                scrapeData.append({'headlines': headline_text, 'paragraphs': paragraph_text}) # appends to scrapeData
                 time.sleep(1)
             else:
-                print(f"Failed to retrieve the page {url}. Status code: {response.status_code}")
+                print(f"Failed to retrieve the page {url}. Status code: {response.status_code}") # return url and status code problem
         return scrapeData

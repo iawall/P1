@@ -4,7 +4,7 @@ follows SRP due to being able to alter the URLs and it not interfering with the 
 
 '''
 
-from module_2.scrap import main
+from module_2.scrap import main # gets scrap.py
 
 if __name__ == "__main__":
     # Define list of URLs to scrape
@@ -15,6 +15,6 @@ if __name__ == "__main__":
     "https://www.etonline.com/donald-glover-explains-his-creative-falling-out-with-phoebe-waller-bridge-over-mr-and-mrs-smith",
     "https://www.foxnews.com/entertainment/tributes-pour-toby-keith-legendary-courtesy-red-white-blue-singer-dead-62"
     ]
-    scrapedData = main(urls)
+    scrapedData = main(urls) # calls scrap.py
 
     print("Complete")
