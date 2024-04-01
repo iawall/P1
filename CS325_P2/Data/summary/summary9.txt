@@ -1,0 +1,4 @@
+ChatGPT no longer requires an account — but there’s a catch:
+OpenAI is making ChatGPT accessible without an account, but with limited features.
+Users can opt out of their chats being used for training, but the platform will have more restrictive content policies.
+Concerns remain about potential misuse and abuse of the AI model..

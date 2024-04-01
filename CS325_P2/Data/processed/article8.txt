@@ -1,0 +1,20 @@
+Headlines:
+ChatGPT no longer requires an account — but there’s a catch
+Paragraphs:
+OpenAI is making its flagship conversational AI accessible to everyone, even people who haven’t bothered making an account. It won’t be quite the same experience, however — and of course all your chats will still go into their training data unless you opt out.
+Starting today in a few markets and gradually rolling out to the rest of the world, visiting chat.openai.com will no longer ask you to log in — though you still can if you want to. Instead, you’ll be dropped right into conversation with ChatGPT, which will use the same model as logged-in users.
+You can chat to your heart’s content, but be aware you’re not getting quite the same set of features that folks with accounts are. You won’t be able to save or share chats, use custom instructions, or other stuff that generally has to be associated with a persistent account.
+That said, you still have the option to opt out of your chats being used for training (which, one suspects, undermines the entire reason the company is doing this in the first place). Just click the tiny question mark in the lower right-hand side, then click “settings,” and disable the feature there. OpenAI offers this helpful gif:
+Image Credits: OpenAI
+Image Credits: OpenAI
+More importantly, this extra-free version of ChatGPT will have “slightly more restrictive content policies.” What does that mean? I asked and got a wordy yet largely meaningless reply from a spokesperson:
+The signed out experience will benefit from the existing safety mitigations that are already built into the model, such as refusing to generate harmful content. In addition to these existing mitigations, we are also implementing additional safeguards specifically designed to address other forms of content that may be inappropriate for a signed out experience.
+We considered the potential ways in which a logged out service could be used in inappropriate ways, informed by our understanding of the capabilities of GPT-3.5 and risk assessments that we’ve completed.
+So … really, no clue as to what exactly these more restrictive policies are. No doubt we will find out shortly as an avalanche of randos descends on the site to kick the tires on this new offering. “We recognize that additional iteration may be needed and welcome feedback,” the spokesperson said. And they shall receive it — in abundance!
+To that point, I also asked whether they had any plan for how to handle what will almost certainly be attempts to abuse and weaponize the model on an unprecedented scale. Just think of it: a platform the use of which causes a billionaire to lose money. After all, inference is still expensive and even the refined, low-lift GPT-3.5 model takes power and server space. People are going to hammer it for all it’s worth.
+For this threat they also had a wordy non-answer:
+We’ve also carefully considered how we can detect and stop misuse of the signed out experience, and the teams responsible for detecting, preventing, and responding to abuse have been involved throughout the design and implementation of this experience and will continue to inform its design moving forward.
+Notice the lack of anything resembling concrete information. They probably have as little idea what people are going to subject this thing to as anyone else, and will have to be reactive rather than proactive.
+It’s not clear what areas or groups will get access to ultra-free ChatGPT first, but it’s starting today, so check back regularly to find out if you’re among the lucky ones.
+Why it’s impossible to review AIs, and why TechCrunch is doing it anyway
+
