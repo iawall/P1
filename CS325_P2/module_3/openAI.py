@@ -11,8 +11,8 @@ summaryDir = os.path.join(dataDir, 'summary') # gets the summary folder
 if not os.path.exists(summaryDir): # if the summary folder does not exist, create one
     os.makedirs(summaryDir)
 
-### CHANGE TO YOUR API KEY ###
-api_key = 'YOUR_API_KEY' # the API key used when contacting the model AI
+### CHANGE TO YOUR CREATED API KEY ###
+api_key = 'YOUR API KEY'
 
 client = OpenAI(api_key=api_key)
 
@@ -42,9 +42,12 @@ def summarize_article(article, outputFile,i):
     return summaryFile
 
 def process_articles_from_folder(folder_path):
-    summaries = [] # list that will store the summaries of each website scraped
+    summaries = [] # list that will store the location of summaries of each website scraped
+    
+    # filenames sorts the folder path. Without this, article10 would be before article2 due to the number in that specific spot
+    filenames = sorted(os.listdir(folder_path), key=lambda x: int(x.split('.')[0].split('e')[-1]))
 
-    for i, filename in enumerate(os.listdir(folder_path),1): # iterates over each file in the path
+    for i, filename in enumerate(filenames,1): # iterates over each file in the path
         file_path = os.path.join(folder_path, filename)
 
        # if os.path.isfile(file_path):
