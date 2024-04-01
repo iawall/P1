@@ -36,3 +36,4 @@ Right now it is set up to where the URLs are hardcoded in the run file, I could 
 - Some articles do not give the exact specifications asked for
 - Articles that are not scrapable will go unnoticed in the summary files
 - Scraping and prompting OpenAI takes some time (approximately 40 seconds) due to the list format used
+- Summaries generate new line by ".", so the use of "Mr.", "Mrs.", etc. may cause a newline to happen
