@@ -51,7 +51,7 @@ def txt_to_html(txt_folder, html_file):
 
 
 txt_folder = "../Data/summary"
-html_file = "all_news_articles.html"
+html_file = "all_news_articles.html" 
 txt_to_html(txt_folder, html_file)
 
 print(f"Converted text files in folder '{txt_folder}' to HTML file '{html_file}'.")
